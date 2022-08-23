@@ -15,6 +15,10 @@ output:
       countdown: 600000
     seal: false
 ---
+class:center, middle, .bg_karl
+background-image: url(https://blog.ida.cl/wp-content/uploads/sites/5/2020/11/ida-twitterFakenews-blog.png)
+background-size: 1350px
+background-position: 1% 20%
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
@@ -33,10 +37,35 @@ knitr::opts_chunk$set(
 library(xaringanthemer)
 style_duo_accent(
   primary_color = "#1381B0",
-  secondary_color = "#FF961C",
+  secondary_color = "#085e9f",
   inverse_header_color = "#FFFFFF"
 )
 ```
+```{css, echo = F}
+.bg_karl {
+  position: relative;
+  z-index: 1;
+}
+.bg_karl::before {    
+      content: "";
+      background-image: url('https://blog.ida.cl/wp-content/uploads/sites/5/2020/11/ida-twitterFakenews-blog.png');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.5;
+      z-index: -1;
+}
+```
+
+## Actitudes: Teoría y formas de medición.
+#### Francisco Villarroel (CICS- UDD) 
+##### Curso Psicología Social - Universidad del Desarrollo
+
+
+
 ---
 background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
 background-size: 200px
@@ -46,7 +75,7 @@ background-position: 97% 8%
 
 - Identificar qué son las actitudes
 - Comprender las fuentes de las actitudes
-- Distuignuir los componentes que hacen que las actitudes sean más fuertes o débiles
+- Distinguir los componentes que hacen que las actitudes sean más fuertes o débiles
 - Analizar las formas que tiene la psicología social para medir actitudes
 
 ---
@@ -61,54 +90,45 @@ class: inverse center middle
 background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
 background-size: 200px
 background-position: 97% 8%
+class: center, middle
 
 ## Hacia una definición de actitud
 
-Text can be **bold**, _italic_, ~~strikethrough~~, or `inline code`.
+--
 
-[Link to another slide](#colors).
 
-### Lorem Ipsum
-
-Dolor imperdiet nostra sapien scelerisque praesent curae metus facilisis dignissim tortor. 
-Lacinia neque mollis nascetur neque urna velit bibendum. 
-Himenaeos suspendisse leo varius mus risus sagittis aliquet venenatis duis nec.
-
-- Dolor cubilia nostra nunc sodales
-
-- Consectetur aliquet mauris blandit
-
-- Ipsum dis nec porttitor urna sed
+>_Evaluaciones globales y relativamente estrables que las personas hacen sobre otras personas, ideas o cosas que, técnicamente, reciben la denominación de objetos de actitud_
 
 ---
 ## ¿Por qué son importantes las actitudes?
 
-.left-column[
-Text color
+--
+####Relevantes para adquirir nuevos conocimientos
 
-[Link Color](#3)
+--
+####Buscan información del entorno con uno mismo 
 
-**Bold Color**
+--
+####Se relacionan directamente con el comportamiento/Conducta
 
-_Italic Color_
+--
+####Permite conectar el medio social con el comportamiento individual
 
-`Inline Code`
-]
+--
+####Cambios de actitudes pueden cambiar contextos más complejos
 
-.right-column[
-Lorem ipsum dolor sit amet, [consectetur adipiscing elit (link)](#3), 
-sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Erat nam at lectus urna.
-Pellentesque elit ullamcorper **dignissim cras tincidunt (bold)** lobortis feugiat. 
-_Eros donec ac odio tempor_ orci dapibus ultrices. 
-Id porta nibh venenatis cras sed felis eget velit aliquet.
-Aliquam id diam maecenas ultricies mi.
-Enim sit amet 
-`code_color("inline")`
-venenatis urna cursus eget nunc scelerisque viverra.
-]
+--
+####Permite Conectar áreas de investigación dispersas
+
 
 ---
+class: inverse center middle
+
+## Las actitudes son un fenómeno mental
+
+--
+### ¡No son directamente observables!
+
 
 # Big Topic or Inverse Slides `#`
 
@@ -129,114 +149,39 @@ This is a normal paragraph text. Only use header levels 1-4.
 # Left-Column Headings
 
 .left-column[
-## First
+## Uno
 
-## Second
+## Dos
 
-## Third
+## Tres
+
+## Cuatro
+
+## Cinco
+
+## Seis
 ]
+
+--
 
 .right-column[
-Dolor quis aptent mus a dictum ultricies egestas.
 
-Amet egestas neque tempor fermentum proin massa!
+Relevantes para adquirir nuevos conocimientos
 
-Dolor elementum fermentum pharetra lectus arcu pulvinar.
+Buscan información del entorno con uno mismo 
+
+
+Se relacionan directamente con el comportamiento/Conducta
+
+Permite conectar el medio social con el comportamiento individual
+
+Cambios de actitudes pueden cambiar contextos más complejos
+
+
+Permite Conectar áreas de investigación dispersas
+
 ]
 
-
----
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
-background-size: 200px
-background-position: 97% 8%
-class: center, middle
-
-## Hacia una definición de actitud
-
---
-
-
->_Evaluaciones globales y relativamente estrables que las personas hacen sobre otras personas, ideas o cosas que, técnicamente, reciben la denominación de objetos de actitud_
-
----
-
-### Code Blocks
-
-#### R Code
-
-```{r eval=FALSE}
-ggplot(gapminder) +
-  aes(x = gdpPercap, y = lifeExp, size = pop, color = country) +
-  geom_point() +
-  facet_wrap(~year)
-```
-
-#### JavaScript
-
-```js
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
----
-
-### More R Code
-
-```{r eval=FALSE}
-dplyr::starwars %>% dplyr::slice_sample(n = 4)
-```
-
----
-
-```{r message=TRUE, eval=requireNamespace("cli", quietly = TRUE)}
-cli::cli_alert_success("It worked!")
-```
-
---
-
-```{r message=TRUE}
-message("Just a friendly message")
-```
-
---
-
-```{r warning=TRUE}
-warning("This could be bad...")
-```
-
---
-
-```{r error=TRUE}
-stop("I hope you're sitting down for this")
-```
-
-
----
-layout: true
-
-## Tables
-
----
-exclude: `r if (requireNamespace("tibble", quietly=TRUE)) "false" else "true"`
-
-```{r eval=requireNamespace("tibble", quietly=TRUE)}
-tibble::as_tibble(mtcars)
-```
-
----
-
-```{r}
-knitr::kable(head(mtcars), format = 'html')
-```
-
----
-exclude: `r if (requireNamespace("DT", quietly=TRUE)) "false" else "true"`
-
-```{r eval=requireNamespace("DT", quietly=TRUE)}
-DT::datatable(head(mtcars), fillContainer = FALSE, options = list(pageLength = 4))
-```
 
 ---
 layout: true
@@ -301,44 +246,6 @@ layout: true
     - level 3 item (ul)
     - level 3 item (ul)
 - level 1 item (ul)
-
----
-layout: true
-
-## Plots
-
----
-
-```{r plot-example, eval=requireNamespace("ggplot2", quietly=TRUE)}
-library(ggplot2)
-(g <- ggplot(mpg) + aes(hwy, cty, color = class) + geom_point())
-```
-
----
-
-```{r plot-example-themed, eval=requireNamespace("showtext", quietly=TRUE) && requireNamespace("ggplot2", quietly=TRUE)}
-g + xaringanthemer::theme_xaringan(text_font_size = 16, title_font_size = 18) +
-  ggtitle("A Plot About Cars")
-```
-
-.footnote[Requires `{showtext}`]
-
----
-layout: false
-
-## Square image
-
-<center><img src="https://octodex.github.com/images/labtocat.png" alt="GithHub Octocat" height="400px" /></center>
-
-.footnote[GitHub Octocat]
-
----
-
-### Wide image
-
-![A wide image with a diagram of branching in git.](https://docs.github.com/assets/images/help/repository/branching.png)
-
-.footnote[Wide images scale to 100% slide width]
 
 ---
 
