@@ -61,9 +61,18 @@ style_duo_accent(
 ```
 
 ## Actitudes: Teoría y formas de medición.
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 #### Francisco Villarroel (CICS- UDD) 
 #### Curso Psicología Social - Universidad del Desarrollo
 
+<img src="Actitudes_files/Logo-Psicología-UDD-removebg-preview.png" alt="drawing"  width="300" class="center" style = "position:relative; left:420px; top:80px"/>
 
 
 ---
@@ -174,10 +183,10 @@ class: left, middle
 
 - **Organización de conocimiento**
   1. Ya que existe sobre carga informativa:
-    - Actitudes ayudan a _necesidad básica de conocimiento y control_
-    - Actitudes organizan info en términos positivos y negativos
-    - Actitudes ayudan a predecir características de esa nueva información
-    - Actitudes guían a información relevante (_¿Peligro de sesgos?_)
+    * Actitudes ayudan a _necesidad básica de conocimiento y control_
+    * Actitudes organizan info en términos positivos y negativos
+    * Actitudes ayudan a predecir características de esa nueva información
+    * Actitudes guían a información relevante (_¿Peligro de sesgos?_)
   2. Actitudes guìan _búsqueda de equilibrio y coherencia_
 
 - **Función Instrumental o utilitaria**
@@ -191,15 +200,16 @@ class: left, middle
   4. Satisface _la neesidad básica de aceptación y pertenencia grupal_
   
 ---
-layout: true
+class: inverse center middle
 
-### Fuentes de construcción de actitudes
+# Fuentes de construcción de actitudes
+
 ---
 background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
 background-size: 200px
 background-position: 97% 8%
 
- #### **Las actitudes son producto de numerosos procesos de socialización durante nuestras etapas de la vida**
+ ## **Las actitudes son producto de numerosos procesos de socialización durante nuestras etapas de la vida**
 
 --
 1) Premios y castigos que hemos recibido por nuestra conducta
@@ -255,7 +265,7 @@ background-position: 97% 8%
 #### Sesgo de búsqueda
 
 ---
-layout: true
+class: inverse center middle
 
 ### Fortaleza de actitudes y su relación con el comportamiento
 
