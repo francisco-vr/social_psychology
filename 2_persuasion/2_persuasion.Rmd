@@ -16,7 +16,7 @@ output:
     seal: false
 ---
 class:center, middle, .bg_karl
-background-image: url(https://media-exp1.licdn.com/dms/image/C4D12AQEEn5DCsUNF-g/article-cover_image-shrink_720_1280/0/1612994702657?e=1668038400&v=beta&t=wyQ-XQjQkFqTVW9j4ZU4KbOiDQBHqx_LMTQjRvbEYRw)
+background-image: url(https://ychef.files.bbci.co.uk/1600x900/p02mnpsc.webp)
 background-size: 1350px
 background-position: 1% 20%
 
@@ -48,19 +48,19 @@ style_duo_accent(
 }
 .bg_karl::before {    
       content: "";
-      background-image: url('https://media-exp1.licdn.com/dms/image/C4D12AQEEn5DCsUNF-g/article-cover_image-shrink_720_1280/0/1612994702657?e=1668038400&v=beta&t=wyQ-XQjQkFqTVW9j4ZU4KbOiDQBHqx_LMTQjRvbEYRw');
+      background-image: url('https://ychef.files.bbci.co.uk/1600x900/p02mnpsc.webp');
       background-size: cover;
       position: absolute;
       top: 0px;
       right: 0px;
       bottom: 0px;
       left: 0px;
-      opacity: 0.3;
+      opacity: 0.2;
       z-index: -1;
 }
 ```
 
-## Mecanismos de persuasion
+# Mecanismos de persuasion
 
 <br>
 <br>
@@ -72,7 +72,7 @@ style_duo_accent(
 #### Francisco Villarroel (CICS- UDD) 
 #### Curso Psicología Social - Universidad del Desarrollo
 
-<img src="2_persuasion_file/Logo-Piscologia-UDD.png" alt="drawing"  width="300" class="center" style = "position:relative; left:410px; top:80px"/>
+<img src="2_persuasion_files/Logo-Psicologia-UDD.png" alt="drawing"  width="300" class="center" style = "position:relative; left:410px; top:80px"/>
 
 
 ---
@@ -82,396 +82,483 @@ background-position: 97% 97%
 
 #Objetivo de la clase
 
-- Identificar qué son las actitudes
-- Comprender las fuentes de las actitudes
-- Distinguir los componentes que hacen que las actitudes sean más fuertes o débiles
-- Analizar las formas que tiene la psicología social para medir actitudes
+- Comprender qué significa un cambio de actitud
+- Reflexionar sobre los componentes éticos sobre los cambios de actitud
+- Analizar principios claves sobre persuasión y cambio de actitud
+
 
 ---
 class: inverse center middle
 
-# ¿Qué son las actitudes?
+```{r, echo=FALSE, out.width="55%", fig.align='center'}
+
+knitr::include_graphics("2_persuasion_files/maxresdefault.jpg")
+
+```
+## ¿Vivimos en una distopía de manipulación mental?
 
 --
-¿Juicios? ¿Percepciones? ¿prejuicios?
+
+Numerosa literatura (ficción, y otras no) han propuesto que vivimos en un gran mundo de manipulación mental y guerra psicológica. 
+
+El elemento central de toda esta literatura es la persuasión y la influencia social en nuestro comportamiento individual.
+
+¿Es real esta situación?
 
 ---
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-position: 97% 8%
+background-size: 200px
+class: center middle
+
+## La verdad es más sutil, y con poderes menos espectaculares
+
+---
+background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
 background-size: 200px
 background-position: 97% 97%
 class: center, middle
 
-## Hacia una definición de actitud
+# ¿Persuasión = Influencia ?
 
---
-
-
->_Evaluaciones globales y relativamente estables que las personas hacen sobre otras personas, ideas o cosas que, técnicamente, reciben la denominación de objetos de actitud_
-
----
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
-background-size: 200px
-background-position: 97% 97%
-class: left, middle
-
-## ¿Por qué son importantes las actitudes?
-
---
-####Relevantes para adquirir nuevos conocimientos
-
---
-####Buscan información del entorno, y también con uno mismo 
-
---
-####Se relacionan directamente con el comportamiento/Conducta
-
---
-####Permite conectar el medio social con el comportamiento individual
-
---
-####Cambios de actitudes pueden cambiar contextos más complejos
-
---
-####Permite Conectar áreas de investigación dispersas
-
-
----
-class: inverse center middle
-
-## Las actitudes son un fenómeno mental
-
---
-### ¡No son directamente observables!
-
----
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
-background-size: 200px
-background-position: 97% 97%
-class: left, middle
-
-## Dimensiones y funciones de las actitudes
-
---
 
 .pull-left[
-#### Componentes de actitudes
 
-*   Componente cognitivo
-*   Componente afectivo
-*   Componente conductual
+## Persuasión
+
+>_"Por persuasión se entiende cualquier cambio, intencionalmente buscado, que ocurre en las actitudes de las personas como consecuencia de su exposición a una propuesta persuasiva"_
+
+Está abocada a contextos y actitudes específicas
+
 ]
+
+.pull-right[
+
+### Influencia
+
+La influencia es un mecanismo más amplio, pues involucra
+
+- Influencia interpersonal (tácticas de compromiso, reciprocidad, etc)
+- Influencia grupal (Normalización, conformidad, desindividuación, pensamiento grupal)
+
+]
+
+---
+background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-size: 200px
+background-position: 97% 97%
+class: left, middle
+
+## Persuasión y propaganda
+
+--
+#### La influencia es un mecanismo de cambio de actitud y comportamiento
+
+--
+
+#### Puede ser interpersonal, grupal u organizacional
+
+--
+
+#### La propaganda es unfluencia, pero a partir de los _mass media_
+
+--
+
+#### Permite conectar el medio social con el comportamiento individual
+
+--
+
+#### Propaganda es unidireccional e involucra el control de los canales de información
+
+--
+
+#### Propaganda es una connotación negativa a comunicación persuasiva que consideramos hostil
+
+
+---
+background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-size: 200px
+background-position: 97% 97%
+class: left, top
+
+## Persuasión y ética: ¿La persuación es buena o mala?
+
+.pull-left[
+
+
+#### La persuasión es intrínsecamente mala
+
+- Basados en Platón y Kant (Idealistas)
+- La persuación es inmoral pues manipula a las personas
+- Las tratan como medios para fines
+
+]
+
 
 --
 
 .pull-right[
 
-#### Ejemplos:
+#### La persuasión es intrínsecamente buena
 
-* "Adidas es técnicamente mejor a Nike"
-* "Goce al tomarse un café de strabucks"
-* "Siempre que puedo recomiendo a mi tatuador"
+- Las personas son libres de aceptar o rechazarla
+- De todas formas sigue siendo mejor que la coerción directa
+
+]
+
+--
+
+<br>
+<br>
+<br>
+
+**Mirada ecléctica: no es ni bueno ni malo, sino más bien como una tecnología: depende de quien la use**
+
+
+---
+class: inverse center middle
+
+
+## Mecanismos de persuasión
+
+**Por Robert Cialdini**
+
+
+---
+background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-size: 200px
+background-position: 97% 97%
+class: left, middle
+
+
+
+
+.pull-left[
+
+```{r, echo=FALSE,out.width="90%",fig.align='center', fig.cap="Robert Cialdini"}
+
+knitr::include_graphics("2_persuasion_files/Dr_Robert_Cialdini.jpg")
+
+```
+
+
+]
+
+.pull-right[
+
+### Robert Cialdini
+
+- Un loco bacán
+- Muy vío
+- Nítido
 
 ]
 
 ---
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+class: inverse center middle
+
+# Siete mecanismos de persuasión según Cialdini
+
+---
+background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
 background-size: 200px
 background-position: 97% 97%
 class: left, middle
 
-# Funciones de la actitudes
+.pull-left[
 
-- **Organización de conocimiento**
-  1. Ya que existe sobre carga informativa:
-    * Actitudes ayudan a _necesidad básica de conocimiento y control_
-    * Actitudes organizan info en términos positivos y negativos
-    * Actitudes ayudan a predecir características de esa nueva información
-    * Actitudes guían a información relevante (_¿Peligro de sesgos?_)
-  1. Actitudes guìan _búsqueda de equilibrio y coherencia_
+### 1. Reciprocidad
 
-- **Función Instrumental o utilitaria**
-  1. Actitudes llevan a cumplir objetivos y evitar los no deseados
-  1. Se optimizan relaciones con el entorno.
+-  Desde distintas disciplinas se ha comprobado que la reciprocidad (intercambio mútuo) tiene un enorme poder
+-  La reciprocidad postula que, a partir de un favor inicial, _obligo_ a la otra persona a "devolver el favor" a partir de un favor de vuelta
+-  Su limitación: favores pequeños se olvidan pronto
 
-- **Función de identidad y expresión de valores**
-  1. Sirven para informar al entorno (y a uno mismo) quienes somos.
-  2. Hay un fortalecimiento de identidad (individuales y grupales)
-  3. Sirve para relacionarse con gente socialmente similar (homofilia)
-  4. Satisface _la necesidad básica de aceptación y pertenencia grupal_
-  
----
-class: inverse center middle
+]
 
-# Fuentes de construcción de actitudes
+.pull-right[
+
+>_“En general, los gestores de empresas han visto que, después de que se les ofrezca un regalo, los clientes están dispuestos a comprar productos y a aceptar peticiones que, de lo contrario, habrían rechazado”_
+
+- **Ejemplos:**
+
+1. Muestras gratis para que compren el producto
+2. Venta de entradas o chocolates que se mezcla con el principio de contraste
+
+]
 
 ---
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
 background-size: 200px
 background-position: 97% 97%
 
-## **Las actitudes son producto de numerosos procesos de socialización durante nuestras etapas de la vida**
+# Ejemplo:
 
---
-1) Premios y castigos que hemos recibido por nuestra conducta
+.pull-left[
 
---
+```{r, echo=FALSE, out.width="70%", fig.align='center', fig.cap="Campaña de spotify para captar suscriptores"}
 
-2) Por modelado o imitación de otros
+knitr::include_graphics("2_persuasion_files/spotify.jpg")
 
---
 
-3) Por refuerzo u observación de las consecuencias de la conducta en otros
+```
+]
 
---
+.pull-right[
 
-Sin embargo hay que recordar las categorìas cognitivas, afectivas y conductuales
+```{r, echo=FALSE, out.width="90%", fig.align='center', fig.cap="Campaña de Amazon Prime para captar suscriptores"}
+
+knitr::include_graphics("2_persuasion_files/Mes-gratis-de-Amazon-Prime.webp")
+
+```
+
+]
+
 ---
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
 background-size: 200px
 background-position: 97% 97%
 
-### Cognitiva
 
-#### La sola exposición a distintos estímulos durante a la vida genera pensamientos o creencias sobre objetos de actitud.
+.pull-left[
+                                                                                                                                                                                ### 2. Simpatía
 
-#### También se generan actitudes en base a socialización de experiencias de terceros
+- Las personas tienden a mostrar conformidad cuando quien emite el mensaje es simpático
+- Los factores que profundizan esa simpatía son múltiples:
+
+1. Belleza física
+2. Semejanza (que la persona que emita el mensaje "sea como yo")
+3. Familiaridad por contacto reiterado con esa persona
+4. Ser asociados a cuestiones positivas
+5. Amistad estratégica
+
+
+]
+
+.pull-right[
+
+
+
+
+
+]
 
 ---
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
 background-size: 200px
 background-position: 97% 97%
 
-### Afectiva
+# Ejemplo:
 
-#### Condicionamiento clásico
 
---
 
-**Crear actitudes donde antes no había una formada**
 
---
 
-#### Priming Afectivo
 
---
 
-**Similar al anterior, pero primero se presenta el efecto incondicionado y luego el condicionado**
-
---
-
-- Ej: fotos de amigos + fotos de lo que quiero condicionar (spoiler: ¡No siempre funciona!)
-
---
-
-#### Mera Exposición
-
---
-
-**La mera exposición constante a un estímulo, de forma repetitiva, puede generar una actitud positiva a él**
 
 ---
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
 background-size: 200px
 background-position: 97% 97%
-
-### Conductual
-
-#### Condicionamiento clásico
-
---
-Expresiones faciales como señal de ciertas actitudes
-
---
-
-#### Disonancia cognitiva
-
---
-
-**Los humanos intentamos actuar acorde a nuestro pensamiento. si no ocurre existe disonancia cognitiva. Luego buscamos comportarnos acorde a lo que creemos**
-
---
-
-#### Autovalidación
-
---
-**A veces nuestrra propia conducta es por definición una validación para la misma**
-
---
-
-#### Sesgo de búsqueda
-
---
-**Similar a la disonancia cognitiva, cuando actuamos de cierta forma buscamos (selectivamente) pensamientos acordes con ello**
-
----
-class: inverse center middle
-
-## ¿Actitudes = Comportamiento?
-
---
-### ¡No necesariamente!
-
----
-class: inverse center middle
-
-### Fortaleza de actitudes y su relación con el comportamiento
-
----
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
-background-size: 200px
-background-position: 97% 97%
-
-### Criterios objetivos de medición de actitudes
-
---
-
-##### Extremismo
-
---
-
-* Cuán intensa es mi actitud y en qué dirección
-
---
-
-##### Accesibilidad
-
---
-
-* Rapidez en que una actitud viene a nuestra mente
-
---
-
-##### Ambivalencia
-
---
-
-* Un objeto de actitud puede tener dos valores de distinto signo
-
---
-
-##### Estabilidad
-
---
-
-* Si esta actitud se mantiene intacta en el tiempo
-
---
-
-##### Resistencia
-
---
-
-* Indicador de cuánto te resistes a cambiar de actitud
-
----
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
-background-size: 200px
-background-position: 97% 97%
-
-### Criterios subjetivos de metición de actitudes
-
----
-## Relación Actitudes y comportamiento. 
-
-[Tienen que ver básicamente sobre la percepción de los indicadores objetivos]
-
---
-
-### Accesibilidad
-
---
-
-* Facilidad con la que experimentan la actitud
-
---
-
-### Estabilidad
-
---
-
-* En qué medida considera que su actitud es estable
-
---
-
-### Resistencia
-
---
-
-* Cómo cree que su actitud resistiría a un ataque de información contraria a ella.
-
----
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
-background-size: 200px
-background-position: 97% 97%
-
-### Considere también:
-
---
-
-#### Confianza
-
---
-
-* Sustentada por experiencias pasadas directas; consensos sociales; cuando llegan fácil a la mente; cuando se ha pensado mucho.
-
-#### Importancia
-
---
-
-* Relevancia que se le da a la propia actitud
-
---
-
-#### Conocimiento
-
---
-
-* Cantidad de conocimiento que se tiene sobre la actitud y su objeto de actitud
-
-
----
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
-background-size: 200px
-background-position: 97% 97%
-
-### Formas de medición de actitudes
-
-
-- Al ser constructos mentales, es difícil medir las actitudes de manera directa y fiable.
-
---
-
-- Podemos dividirlas en métodos indirectos y directos
-
----
-layout: false
----
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
-background-size: 200px
-background-position: 97% 97%
-
-## Escalas de diferencias semántico
-
-
-
-<img src="Actitudes_files/diferencial_semantico.png" alt="drawing"  width="950" class="center" style = "position:relative; left:45px; top:80px"/>
-
----
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
-background-size: 200px
-background-position: 97% 97%
-
-#### Escalas de Likert
-
-
-<img src="Actitudes_files/likert_scale.png" alt="drawing"  width="750" class="center" style = "position:relative; left:200px; top:10px"/>
-
----
 class: left, middle
 
-<img src="Actitudes_files/situacion.png" alt="drawing"  width="700" class="center" style = "position:relative; left:225px; top:10px"/>
+.pull-left[
 
-<img src="Actitudes_files/emociones.png" alt="drawing" width="700" class="center" style = "position:relative; left:225px; top:10px"/>
+>_"El principio de aprobación social puede utilizarse para estimular la conformidad de una persona ante una petición informándole de que muchos otros individuos (cuantos más, mejor), muestran o han mostrado su conformidad"_
+
+]
+
+.pull-right[
+
+### 3. Aprobación Social 
+
+1. Para tomar decisiones, un elemento fundamental que usan las personas es ver qué es lo que creen los demás o cómo actúan
+2. La aprobación social es un mecanismo de persuación que se necesitan 3 componentes:
+- Funciona cuando hay condiciones de incertidumbre para tomar una decisión
+- Personas tienden a imitar a otros. Nos Parece más correcta, más viable y socialmente más aceptable.
+- Principio de persuación de los semejantes
+
+]
+---
+background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-size: 200px
+background-position: 97% 97%
+
+# Ejemplo:
+
+
+```{r, echo=FALSE, out.width="70%", fig.align='center'}
+
+knitr::include_graphics("2_persuasion_files/aprobación social.png")
+
+```
+---
+background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-size: 200px
+background-position: 97% 97%
+
+# Pero también..
+
+
+```{r, echo=FALSE, out.width="70%", fig.align='center'}
+
+knitr::include_graphics("2_persuasion_files/aprobacion_2.png")
+
+```
+
+
+---
+background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-size: 200px
+background-position: 97% 97%
+class: left, middle
+
+.pull-left[
+
+### 4. Autoridad
+
+]
+
+.pull-right[
+
+
+
+]
+---
+background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-size: 200px
+background-position: 97% 97%
+
+# Ejemplo:
+
+---
+background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-size: 200px
+background-position: 97% 97%
+class: left, middle
+
+.pull-left[
+
+### 5. Autoridad
+
+]
+
+.pull-right[
+
+
+
+]
+
+---
+background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-size: 200px
+background-position: 97% 97%
+
+# Ejemplo:
+
+
+---
+background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-size: 200px
+background-position: 97% 97%
+class: left, middle
+
+.pull-left[
+
+### 6. Escasez
+
+]
+
+.pull-right[
+
+
+
+]
+
+---
+background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-size: 200px
+background-position: 97% 97%
+
+# Ejemplo:
+
+---
+background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-size: 200px
+background-position: 97% 97%
+class: left, middle
+
+.pull-left[
+
+
+
+]
+
+.pull-right[
+
+### 7. Compromiso y coherencia
+
+]
+
+---
+background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-size: 200px
+background-position: 97% 97%
+
+# Ejemplo:
+
+
+---
+background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-size: 200px
+background-position: 97% 97%
+class: left, middle
+
+.pull-left[
+
+### 8. Unidad
+
+]
+
+.pull-right[
+
+
+
+]
+
+---
+background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-size: 200px
+background-position: 97% 97%
+
+# Ejemplo:
+
+
+
+---
+background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-size: 200px
+background-position: 97% 97%
+class: left, middle
+
+.pull-left[
+
+
+
+]
+
+.pull-right[
+
+### 9. Influencia instantánea
+
+]
+
+---
+background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-size: 200px
+background-position: 97% 97%
+
+# Ejemplo:
 
 ---
 class: inversed, center, middle
