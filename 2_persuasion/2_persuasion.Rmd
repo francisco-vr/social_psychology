@@ -351,7 +351,21 @@ background-position: 97% 97%
 # Ejemplo:
 
 
+.pull-left[
 
+```{r, echo=FALSE, out.width="70%", fig.align='center'}
+
+knitr::include_graphics("2_persuasion_files/tevez_polenta.jpg")
+```
+
+]
+
+.pull-right[
+```{r, echo=FALSE, out.width="100%", fig.align='center'}
+knitr::include_graphics("2_persuasion_files/asaito.jpg")
+```
+
+]
 
 
 
@@ -490,6 +504,12 @@ background-position: 97% 97%
 
 # Ejemplo:
 
+```{r, echo=FALSE, out.width="90%", fig.align='center', fig.cap="Oferta 'limitada' en la página de inicio de PCFactory"}
+
+knitr::include_graphics("2_persuasion_files/escasez_pcfactory.png")
+
+```
+
 ---
 background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
 background-size: 200px
@@ -498,7 +518,7 @@ class: left, top
 
 .pull-left[
 
-## Valor del compromiso
+#### Valor del compromiso
 1. Conseguir un compromiso sirve para que acciones futuras sean coherentes con él
 2. Los compromisos son más efectivos cuando son públicos
 3. Un compromiso fuerte condicionay modifica comportamiento a largo plazo
@@ -594,6 +614,9 @@ background-position: 97% 97%
 
 # Ejemplo:
 
+
+
+
 ---
 background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
 background-size: 200px
@@ -624,8 +647,8 @@ Autoridad               | Científico muestra cómo el producto es + ecológico 
 Simpatía                | Utilizo gente vegana con carisma y conocidos en mi campaña     
 Aprobación social       | Hago ranking de productos mejor evaluados por la gente  
 Escasez                 | Ofertas especiales en cantidades limitadas
-Compromiso y coherencia | asdjhs      
-Unidad                  | jsdj      
+Compromiso y coherencia | Hacer compromisos públicos sobre no comer más animales     
+Unidad                  | Comida y beneficios para veganos      
 Influencia instantánea  | asjkhd     
 
 
