@@ -73,11 +73,11 @@ style_duo_accent(
 #### Francisco Villarroel (CICS- UDD) 
 #### Curso Psicología Social - Universidad del Desarrollo
 
-<img src="2_persuasion_files/Logo-Psicologia-UDD.png" alt="drawing"  width="300" class="center" style = "position:relative; left:410px; top:80px"/>
+<img src="2_persuasion_files/logo_psicologia_UDD.png" alt="drawing"  width="300" class="center" style = "position:relative; left:410px; top:80px"/>
 
 
 ---
-background-image: url(2_persuasion/2_persuasion_files/Logo-Psicologia-UDD.png)
+background-image: url(2_persuasion/2_persuasion_files/logo_psicologia_UDD.png)
 background-size: 200px
 background-position: 97% 97%
 
@@ -107,7 +107,7 @@ El elemento central de toda esta literatura es la persuasión y la influencia so
 ¿Es real esta situación?
 
 ---
-background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-image: url(2_persuasion_files/logo_psicologia_UDD.png)
 background-position: 97% 8%
 background-size: 200px
 class: center middle
@@ -115,7 +115,7 @@ class: center middle
 ## La verdad es más sutil, y con poderes menos espectaculares
 
 ---
-background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-image: url(2_persuasion_files/logo_psicologia_UDD.png)
 background-size: 200px
 background-position: 97% 97%
 class: center, middle
@@ -145,7 +145,7 @@ La influencia es un mecanismo más amplio, pues involucra
 ]
 
 ---
-background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-image: url(2_persuasion_files/logo_psicologia_UDD.png)
 background-size: 200px
 background-position: 97% 97%
 class: left, middle
@@ -177,7 +177,7 @@ class: left, middle
 
 
 ---
-background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-image: url(2_persuasion_files/logo_psicologia_UDD.png)
 background-size: 200px
 background-position: 97% 97%
 class: left, top
@@ -226,7 +226,7 @@ class: inverse center middle
 
 
 ---
-background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-image: url(2_persuasion_files/logo_psicologia_UDD.png)
 background-size: 200px
 background-position: 97% 97%
 class: left, middle
@@ -263,7 +263,7 @@ class: inverse center middle
 # Siete mecanismos de persuasión según Cialdini
 
 ---
-background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-image: url(2_persuasion_files/logo_psicologia_UDD.png)
 background-size: 200px
 background-position: 97% 97%
 class: left, middle
@@ -290,7 +290,7 @@ class: left, middle
 ]
 
 ---
-background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-image: url(2_persuasion_files/logo_psicologia_UDD.png)
 background-size: 200px
 background-position: 97% 97%
 
@@ -317,7 +317,7 @@ knitr::include_graphics("2_persuasion_files/Mes-gratis-de-Amazon-Prime.webp")
 ]
 
 ---
-background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-image: url(2_persuasion_files/logo_psicologia_UDD.png)
 background-size: 200px
 background-position: 97% 97%
 
@@ -346,7 +346,7 @@ background-position: 97% 97%
 ]
 
 ---
-background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-image: url(2_persuasion_files/logo_psicologia_UDD.png)
 background-size: 200px
 background-position: 97% 97%
 
@@ -374,7 +374,7 @@ knitr::include_graphics("2_persuasion_files/asaito.jpg")
 
 
 ---
-background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-image: url(2_persuasion_files/logo_psicologia_UDD.png)
 background-size: 200px
 background-position: 97% 97%
 class: left, middle
@@ -397,7 +397,7 @@ class: left, middle
 
 ]
 ---
-background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-image: url(2_persuasion_files/logo_psicologia_UDD.png)
 background-size: 200px
 background-position: 97% 97%
 
@@ -410,7 +410,7 @@ knitr::include_graphics("2_persuasion_files/aprobación social.png")
 
 ```
 ---
-background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-image: url(2_persuasion_files/logo_psicologia_UDD.png)
 background-size: 200px
 background-position: 97% 97%
 
@@ -425,7 +425,7 @@ knitr::include_graphics("2_persuasion_files/aprobacion_2.png")
 
 
 ---
-background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-image: url(2_persuasion_files/logo_psicologia_UDD.png)
 background-size: 200px
 background-position: 97% 97%
 class: left, middle
@@ -452,7 +452,7 @@ class: left, middle
 
 ]
 ---
-background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-image: url(2_persuasion_files/logo_psicologia_UDD.png)
 background-size: 200px
 background-position: 97% 97%
 
@@ -466,7 +466,7 @@ knitr::include_graphics("2_persuasion_files/ikea.png")
 
 
 ---
-background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-image: url(2_persuasion_files/logo_psicologia_UDD.png)
 background-size: 200px
 background-position: 97% 97%
 class: left, middle
@@ -500,7 +500,7 @@ Ejemplos:
 ]
 
 ---
-background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-image: url(2_persuasion_files/logo_psicologia_UDD.png)
 background-size: 200px
 background-position: 97% 97%
 
@@ -513,7 +513,7 @@ knitr::include_graphics("2_persuasion_files/escasez_pcfactory.png")
 ```
 
 ---
-background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-image: url(2_persuasion_files/logo_psicologia_UDD.png)
 background-size: 200px
 background-position: 97% 97%
 class: left, top
@@ -543,7 +543,7 @@ class: left, top
 ]
 
 ---
-background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-image: url(2_persuasion_files/logo_psicologia_UDD.png)
 background-size: 200px
 background-position: 97% 97%
 
@@ -559,7 +559,7 @@ knitr::include_graphics("2_persuasion_files/compromiso.png")
 
 
 ---
-background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-image: url(2_persuasion_files/logo_psicologia_UDD.png)
 background-size: 200px
 background-position: 97% 97%
 class: left, middle
@@ -589,7 +589,7 @@ class: left, middle
 ]
 
 ---
-background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-image: url(2_persuasion_files/logo_psicologia_UDD.png)
 background-size: 200px
 background-position: 97% 97%
 
@@ -609,7 +609,7 @@ knitr::include_graphics("2_persuasion_files/club_lider_2.png")
 
 
 ---
-background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
+background-image: url(2_persuasion_files/logo_psicologia_UDD.png)
 background-size: 200px
 background-position: 97% 8%
 
