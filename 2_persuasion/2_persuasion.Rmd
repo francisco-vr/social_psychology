@@ -77,7 +77,7 @@ style_duo_accent(
 
 
 ---
-background-image: url(2_persuasion/2_persuasion_file/Logo-Psicologia-UDD.png)
+background-image: url(2_persuasion/2_persuasion_files/Logo-Psicologia-UDD.png)
 background-size: 200px
 background-position: 97% 97%
 
@@ -249,9 +249,11 @@ knitr::include_graphics("2_persuasion_files/Dr_Robert_Cialdini.jpg")
 
 ### Robert Cialdini
 
-- Un loco bacán
-- Muy vío
-- Nítido
+- Profesor Emérito de la Universidad Estatal de Arizona
+- Especializado en psicologìa social
+- Su trabajo fundamental está centrado en mecanismos de persuasión e influencia social 
+- Su investigaciòn ha tenido alto impacto en marketing y en campañas políticas
+- Fue contratato para la campaña de Obama (2012) y para el diseño de avisaje de Hillary Clinton (2016)
 
 ]
 
@@ -535,6 +537,9 @@ class: left, top
   2. Imagen pública
   3. Nos da atajos para vivir en una vida llena de estímulos
 
+
+**Ejemplo**: Reservas de mesas
+
 ]
 
 ---
@@ -543,6 +548,14 @@ background-size: 200px
 background-position: 97% 97%
 
 # Ejemplo:
+
+
+```{r, echo=FALSE, out.width="35%", fig.align='center'}
+
+knitr::include_graphics("2_persuasion_files/compromiso.png")
+
+```
+
 
 
 ---
@@ -580,41 +593,19 @@ background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
 background-size: 200px
 background-position: 97% 97%
 
-# Ejemplo:
+# Ejemplo - Club Lìder
 
+```{r, echo=FALSE, out.width="65%", fig.align='center'}
 
+knitr::include_graphics("2_persuasion_files/club_lider_1.png")
 
----
-background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
-background-size: 200px
-background-position: 97% 97%
-class: left, middle
+```
 
-.pull-left[
+```{r, echo=FALSE, out.width="65%", fig.align='center'}
 
-### 9. Influencia instantánea
+knitr::include_graphics("2_persuasion_files/club_lider_2.png")
 
-- Al tener tantos estímulos día a día, el cerebro debe tomar atajos
-- La influencia instantánea presupone que a partir de uno de los rasgos antes mencionados, y sólo por ellos, tomo una decisión rápida
-- 
-
-]
-
-.pull-right[
-
-- La tendencia actual de mucha sobrecarga, es probable que se ocurra más
-
-
-]
-
----
-background-image: url(2_persuasion_files/Logo-Psicologia-UDD.png)
-background-size: 200px
-background-position: 97% 97%
-
-# Ejemplo:
-
-
+```
 
 
 ---
@@ -648,9 +639,7 @@ Simpatía                | Utilizo gente vegana con carisma y conocidos en mi ca
 Aprobación social       | Hago ranking de productos mejor evaluados por la gente  
 Escasez                 | Ofertas especiales en cantidades limitadas
 Compromiso y coherencia | Hacer compromisos públicos sobre no comer más animales     
-Unidad                  | Comida y beneficios para veganos      
-Influencia instantánea  | asjkhd     
-
+Unidad                  | Comida y beneficios para veganos    
 
 ]
 
