@@ -73,11 +73,11 @@ style_duo_accent(
 #### Francisco Villarroel (CICS- UDD) 
 #### Curso Psicología Social - Universidad del Desarrollo
 
-<img src="2_persuasion_files/logo_psicologia_UDD.png" alt="drawing"  width="300" class="center" style = "position:relative; left:410px; top:80px"/>
+
 
 
 ---
-background-image: url(2_persuasion/2_persuasion_files/logo_psicologia_UDD.png)
+background-image: url(2_persuasion_files/logo_psicologia_UDD.png)
 background-size: 200px
 background-position: 97% 97%
 
