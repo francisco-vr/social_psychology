@@ -1,0 +1,524 @@
+---
+title: "Actitudes: Teoría y formas de medición"
+author: 
+  - "Francisco Villarroel Riquelme"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+      countdown: 600000
+    seal: false
+---
+class:center, middle, bg_karl
+background-image: url(https://ethicsunwrapped.utexas.edu/wp-content/uploads/2017/02/Obedience-to-Authority-1.jpg)
+background-size: 1300px
+background-position: 1% 20%
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#1381B0",
+  secondary_color = "#085e9f",
+  inverse_header_color = "#FFFFFF"
+)
+```
+
+```{css, echo = F}
+.bg_karl {
+  position: relative;
+  z-index: 1;
+}
+.bg_karl::before {    
+      content: "";
+      background-image: url('https://ethicsunwrapped.utexas.edu/wp-content/uploads/2017/02/Obedience-to-Authority-1.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.35;
+      z-index: -1;
+}
+
+.my-style {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1em;
+  color: white;
+}
+```
+
+
+# Obediencia y conformidad
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+#### .my-style[Francisco Villarroel (CICS- UDD)]
+#### .my-style[Curso Psicología Social - Universidad del Desarrollo]
+
+<img src="3_obediencia_files/logo_psicologia_UDD.png" alt="drawing"  width="300" class="center" style = "position:relative; left:410px; top:50px"/>
+
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+
+#Objetivo de la clase
+
+- Comprender las diferencias entre conformidad y obediencia
+- Analizar cuáles son los expertimentos clásicos sobre conformidad y obediencia
+- Analizar los factores predictores de obediencia y conformidad
+- Distinguir los factores principales para analizar quienes son los que se conforman u obedecen más
+---
+class:center, middle, bg_karl
+background-image: url(https://img2.rtve.es/imagenes/documentos-rne-juicio-adolf-eichmann-ejecutor-del-holocausto-18-02-22/1645217295119.jpg)
+background-size: 1350px
+background-position: 1% 20%
+class: inverse center middle
+
+# Cuando se cometen atrocidades como el holocausto ¿sólo se siguen órdenes?
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+_Juicio a Adolf Eichmann, Ejecutor del Holocausto (1961)_
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+class: center, middle
+
+## ¿Qué es la conformidad?
+
+--
+
+.pull-left[
+
+>_La conformidad es el término general que se refiere a actuar de manera diferente debido a la influencia de otros. La conformidad no es solo actuar como los demás; también es verse afectado por cómo actúan_
+
+]
+
+.pull-right[
+
+
+
+]
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+class: left, middle
+
+## ¿Por qué son importantes las actitudes?
+
+--
+####Relevantes para adquirir nuevos conocimientos
+
+--
+####Buscan información del entorno, y también con uno mismo 
+
+--
+####Se relacionan directamente con el comportamiento/Conducta
+
+--
+####Permite conectar el medio social con el comportamiento individual
+
+--
+####Cambios de actitudes pueden cambiar contextos más complejos
+
+--
+####Permite Conectar áreas de investigación dispersas
+
+
+---
+class: inverse center middle
+
+## Las actitudes son un fenómeno mental
+
+--
+### ¡No son directamente observables!
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+class: left, middle
+
+## Dimensiones y funciones de las actitudes
+
+--
+
+.pull-left[
+#### Componentes de actitudes
+
+*   Componente cognitivo
+*   Componente afectivo
+*   Componente conductual
+]
+
+--
+
+.pull-right[
+
+#### Ejemplos:
+
+* "Adidas es técnicamente mejor a Nike"
+* "Goce al tomarse un café de strabucks"
+* "Siempre que puedo recomiendo a mi tatuador"
+
+]
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+class: left, middle
+
+# Funciones de la actitudes
+
+- **Organización de conocimiento**
+  1. Ya que existe sobre carga informativa:
+    * Actitudes ayudan a _necesidad básica de conocimiento y control_
+    * Actitudes organizan info en términos positivos y negativos
+    * Actitudes ayudan a predecir características de esa nueva información
+    * Actitudes guían a información relevante (_¿Peligro de sesgos?_)
+  1. Actitudes guìan _búsqueda de equilibrio y coherencia_
+
+- **Función Instrumental o utilitaria**
+  1. Actitudes llevan a cumplir objetivos y evitar los no deseados
+  1. Se optimizan relaciones con el entorno.
+
+- **Función de identidad y expresión de valores**
+  1. Sirven para informar al entorno (y a uno mismo) quienes somos.
+  2. Hay un fortalecimiento de identidad (individuales y grupales)
+  3. Sirve para relacionarse con gente socialmente similar (homofilia)
+  4. Satisface _la necesidad básica de aceptación y pertenencia grupal_
+  
+---
+class: inverse center middle
+
+# Fuentes de construcción de actitudes
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+
+## **Las actitudes son producto de numerosos procesos de socialización durante nuestras etapas de la vida**
+
+--
+1) Premios y castigos que hemos recibido por nuestra conducta
+
+--
+
+2) Por modelado o imitación de otros
+
+--
+
+3) Por refuerzo u observación de las consecuencias de la conducta en otros
+
+--
+
+Sin embargo hay que recordar las categorìas cognitivas, afectivas y conductuales
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+
+### Cognitiva
+
+#### La sola exposición a distintos estímulos durante a la vida genera pensamientos o creencias sobre objetos de actitud.
+
+#### También se generan actitudes en base a socialización de experiencias de terceros
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+
+### Afectiva
+
+#### Condicionamiento clásico
+
+--
+
+**Crear actitudes donde antes no había una formada**
+
+--
+
+#### Priming Afectivo
+
+--
+
+**Similar al anterior, pero primero se presenta el efecto incondicionado y luego el condicionado**
+
+--
+
+- Ej: fotos de amigos + fotos de lo que quiero condicionar (spoiler: ¡No siempre funciona!)
+
+--
+
+#### Mera Exposición
+
+--
+
+**La mera exposición constante a un estímulo, de forma repetitiva, puede generar una actitud positiva a él**
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+
+### Conductual
+
+#### Condicionamiento clásico
+
+--
+Expresiones faciales como señal de ciertas actitudes
+
+--
+
+#### Disonancia cognitiva
+
+--
+
+**Los humanos intentamos actuar acorde a nuestro pensamiento. si no ocurre existe disonancia cognitiva. Luego buscamos comportarnos acorde a lo que creemos**
+
+--
+
+#### Autovalidación
+
+--
+**A veces nuestrra propia conducta es por definición una validación para la misma**
+
+--
+
+#### Sesgo de búsqueda
+
+--
+**Similar a la disonancia cognitiva, cuando actuamos de cierta forma buscamos (selectivamente) pensamientos acordes con ello**
+
+---
+class: inverse center middle
+
+## ¿Actitudes = Comportamiento?
+
+--
+### ¡No necesariamente!
+
+---
+class: inverse center middle
+
+### Fortaleza de actitudes y su relación con el comportamiento
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+
+### Criterios objetivos de medición de actitudes
+
+--
+
+##### Extremismo
+
+--
+
+* Cuán intensa es mi actitud y en qué dirección
+
+--
+
+##### Accesibilidad
+
+--
+
+* Rapidez en que una actitud viene a nuestra mente
+
+--
+
+##### Ambivalencia
+
+--
+
+* Un objeto de actitud puede tener dos valores de distinto signo
+
+--
+
+##### Estabilidad
+
+--
+
+* Si esta actitud se mantiene intacta en el tiempo
+
+--
+
+##### Resistencia
+
+--
+
+* Indicador de cuánto te resistes a cambiar de actitud
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+
+### Criterios subjetivos de metición de actitudes
+
+---
+## Relación Actitudes y comportamiento. 
+
+[Tienen que ver básicamente sobre la percepción de los indicadores objetivos]
+
+--
+
+### Accesibilidad
+
+--
+
+* Facilidad con la que experimentan la actitud
+
+--
+
+### Estabilidad
+
+--
+
+* En qué medida considera que su actitud es estable
+
+--
+
+### Resistencia
+
+--
+
+* Cómo cree que su actitud resistiría a un ataque de información contraria a ella.
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+
+### Considere también:
+
+--
+
+#### Confianza
+
+--
+
+* Sustentada por experiencias pasadas directas; consensos sociales; cuando llegan fácil a la mente; cuando se ha pensado mucho.
+
+#### Importancia
+
+--
+
+* Relevancia que se le da a la propia actitud
+
+--
+
+#### Conocimiento
+
+--
+
+* Cantidad de conocimiento que se tiene sobre la actitud y su objeto de actitud
+
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+
+### Formas de medición de actitudes
+
+
+- Al ser constructos mentales, es difícil medir las actitudes de manera directa y fiable.
+
+--
+
+- Podemos dividirlas en métodos indirectos y directos
+
+---
+layout: false
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+
+## Escalas de diferencias semántico
+
+
+
+<img src="Actitudes_files/diferencial_semantico.png" alt="drawing"  width="950" class="center" style = "position:relative; left:45px; top:80px"/>
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+
+#### Escalas de Likert
+
+
+<img src="Actitudes_files/likert_scale.png" alt="drawing"  width="750" class="center" style = "position:relative; left:200px; top:10px"/>
+
+---
+class: left, middle
+
+<img src="Actitudes_files/situacion.png" alt="drawing"  width="700" class="center" style = "position:relative; left:225px; top:10px"/>
+
+<img src="Actitudes_files/emociones.png" alt="drawing" width="700" class="center" style = "position:relative; left:225px; top:10px"/>
+
+---
+class: inversed, center, middle
+background-image: url(https://user-images.githubusercontent.com/163582/45438104-ea200600-b67b-11e8-80fa-d9f2a99a03b0.png)
+background-size: 80px
+background-position: 50% 90%
+
+# ¡Gracias!
+
+
+fvillarroelr@udd.cl
+
+Slide creado con el paquete [**xaringan**](https://github.com/yihui/xaringan).
+
+
+El  chakra viene de [remark.js](https://remarkjs.com), [**knitr**](https://yihui.org/knitr/), y [R Markdown](https://rmarkdown.rstudio.com).
+Este slide fue creado por [**xaringan**](https://github.com/yihui/xaringan) y [**XaringanThemer**](https://pkg.garrickadenbuie.com/xaringanthemer/index.html)
