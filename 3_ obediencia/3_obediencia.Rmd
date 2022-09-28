@@ -226,7 +226,6 @@ knitr::include_graphics("3_obediencia_files/a-psy-socinf-dia04.gif")
 * Se lanza una luz a 4.5mts que se mueve erráticamente. Se le pregunta a la persona cuánto se movió la luz
 * Primero 15cm, luego 25cm y las posteriore sseñala que son 20cm
 * Se integran a dos personas más que dicen números bastante menores (2.5 y 5cm). Con el pasar de los intentos las personas convergen en un número.
-* 
 
 ]
 ---
@@ -306,241 +305,337 @@ background-image: url(3_obediencia_files/logo_psicologia_UDD.jpg)
 background-size: 200px
 background-position: 97% 97%
 
-## **Las actitudes son producto de numerosos procesos de socialización durante nuestras etapas de la vida**
+## Experimento de Solomon Asch
 
---
-1) Premios y castigos que hemos recibido por nuestra conducta
 
---
+.pull-left[
 
-2) Por modelado o imitación de otros
+* Se les invita a un grupo de estudiantes a una investigación sobre percepciones
+* Sólo uno de ellos es un participante genuino. los demás son cómplices
+* Se les muestra una línea estandar y otreo grupo de tres líneas. se pide señalar cuál es la línea del segundo grupo que mejor se ajusta a la línea estándar
+* Todos los cómplices dan una respuesta deliberadamente errónea
 
---
+]
 
-3) Por refuerzo u observación de las consecuencias de la conducta en otros
 
---
+.pull-right[
 
-Sin embargo hay que recordar las categorìas cognitivas, afectivas y conductuales
----
-background-image: url(3_obediencia_files/logo_psicologia_UDD.jpg)
-background-size: 200px
-background-position: 97% 97%
+```{r, echo=FALSE, fig.align='center'}
 
-### Cognitiva
+knitr::include_graphics("3_obediencia_files/asch_lines.png")
 
-#### La sola exposición a distintos estímulos durante a la vida genera pensamientos o creencias sobre objetos de actitud.
+```
 
-#### También se generan actitudes en base a socialización de experiencias de terceros
+
+]
 
 ---
-background-image: url(3_obediencia_files/logo_psicologia_UDD.jpg)
-background-position: 97% 97%
 
-### Afectiva
+```{r, echo=FALSE, fig.align='center', out.width="55%", fig.cap="experimento de solomon ash"}
 
-#### Condicionamiento clásico
+knitr::include_graphics("3_obediencia_files/solomon2.jpg")
 
---
 
-**Crear actitudes donde antes no había una formada**
+knitr::include_graphics("3_obediencia_files/solomon1.jpeg")
 
---
-
-#### Priming Afectivo
-
---
-
-**Similar al anterior, pero primero se presenta el efecto incondicionado y luego el condicionado**
-
---
-
-- Ej: fotos de amigos + fotos de lo que quiero condicionar (spoiler: ¡No siempre funciona!)
-
---
-
-#### Mera Exposición
-
---
-
-**La mera exposición constante a un estímulo, de forma repetitiva, puede generar una actitud positiva a él**
+```
 
 ---
 background-image: url(3_obediencia_files/logo_psicologia_UDD.jpg)
 background-size: 200px
 background-position: 97% 97%
 
-### Conductual
+## Otras formas de presión social
 
-#### Condicionamiento clásico
 
---
-Expresiones faciales como señal de ciertas actitudes
+.pull-left[
 
---
+#### Presión a los árbitros de fútbol
 
-#### Disonancia cognitiva
+* En muchos deportes los árbitros toman decisiones sobre faltas.
+* Memmert y Unkelbach estudiiaron 1530 partidos de fútbol y descubrieron que los árbitros son más favorables a los equipos locales, donde las hinchadas gritan más cuando se afecta al equipo propio. 
 
---
+* Tarjetas de local: 1.89 Tarhetas rojas/ Tarjetas de visita: 2.35
+* El número de tarjetas crece si la gente grita más.
+* En laboratorio esto se replicó y los árbitros ponen más amarillas cuando los videos se acompañan de ruido
 
-**Los humanos intentamos actuar acorde a nuestro pensamiento. si no ocurre existe disonancia cognitiva. Luego buscamos comportarnos acorde a lo que creemos**
 
---
+]
 
-#### Autovalidación
 
---
-**A veces nuestrra propia conducta es por definición una validación para la misma**
+.pull-right[
 
---
+#### Alimentación
 
-#### Sesgo de búsqueda
+* Las personas comen más mientras están sentadas con un apersona que come más
+* A su vez, comen menos si la otra come menos.
 
---
-**Similar a la disonancia cognitiva, cuando actuamos de cierta forma buscamos (selectivamente) pensamientos acordes con ello**
+]
 
----
-class: inverse center middle
 
-## ¿Actitudes = Comportamiento?
-
---
-### ¡No necesariamente!
 
 ---
-class: inverse center middle
+class: center middle
 
-### Fortaleza de actitudes y su relación con el comportamiento
+**Si la gente reacciona así a presiones "sutiles". ¿Cómo lo hacen con grandes presiones que tienen consecuencias más prtofundas?**
+
+--
+
+**Aquí llegamos al poder de la Obediencia**
+
+---
+class: center middle
+
+### Replicación del experimento de Milgram por la BBC, Londres.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iUFN1eX2s6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+background-image: url(session_1_files/logo_mepop.png)
+background-size: 200px
+background-position: 97% 97%
+
+## Experimento de Milgram (1963)
+
+--
+
+.pull-left[
+
+- Mide el nivel de obediencia a la autoridad, hasta el punto de causar daños a otras personas
+
+- Se reclutan dos personas para analizar el rol del castigo en el aprendizaje. uno de ellos es un cómplice
+
+- Participante toma rol de instructor que debe hacer algunas preguntas sobre memoria para aprendizaje. si el estudiante se equivoca, debe propinar descargar electricas desde los 15V hasta los 450V, que es una descarga mortal
+
+- Cada vez que las personas cuestionen o se nieguen, el jefe de investigación le pedirá que continúe
+
+]
+
+.pull-right[
+
+```{r, echo=FALSE, out.width="150%"}
+knitr::include_graphics("3_obediencia_files/milgram.png")
+```
+
+]
+
+--
+
+¿Cuántas personas llegaron al máximo voltaje?
+
+--
+
+**El 65% llegó a los 450v**
 
 ---
 background-image: url(3_obediencia_files/logo_psicologia_UDD.jpg)
 background-size: 200px
 background-position: 97% 97%
 
-### Criterios objetivos de medición de actitudes
+### Nuevas versiones del experimento de Milgram
 
---
 
-##### Extremismo
+.pull-left[
 
---
 
-* Cuán intensa es mi actitud y en qué dirección
+```{r, echo=FALSE, fig.align='center', out.width="90%"}
 
---
+knitr::include_graphics("3_obediencia_files/graficos_milgram.png")
 
-##### Accesibilidad
+```
 
---
 
-* Rapidez en que una actitud viene a nuestra mente
+]
 
---
 
-##### Ambivalencia
+.pull-right[
 
---
+- Burger(2009) replica sólo hasta los 150v. el 70% de las personas llegó hasta a este punto (14 puntos menos que el original de Milgram)
+- Casi el doble de hombres desobedecieron
+- Otros estudios en Polonia (+ colectivista) observa que el 90% llega a los 150v
+- El mismo Milgram hizo modificaciones aumentandfo ruidos de dolor. No hubo mucha diferencia
 
-* Un objeto de actitud puede tener dos valores de distinto signo
-
---
-
-##### Estabilidad
-
---
-
-* Si esta actitud se mantiene intacta en el tiempo
-
---
-
-##### Resistencia
-
---
-
-* Indicador de cuánto te resistes a cambiar de actitud
+]
 
 ---
 background-image: url(3_obediencia_files/logo_psicologia_UDD.jpg)
 background-size: 200px
 background-position: 97% 97%
 
-### Criterios subjetivos de metición de actitudes
+### Este experimento entregó varios elementos para comprender la obediencia
+
+--
+
+### Distancia respecto de la víctima
+
+--
+
+* Los participantes reaccionaban con menos misericordia si no los veían.
+* Cuando no se emiten quejidos y las víctimas no se ven, la obediencia es altísima
+* Cuando era presencial "sólo" el 40% obedecía igual
+**En general, personalizar a la víctica evita infringir tanto daño**
+--
+
+### Cercanía y legitimidad de la autoridad
+
+--
+
+* Presencialidad y cercanía de la autoridad modula la obediencia
+* Cuando el jede del experimento da ordenes por teléfono la obediencia desciende un 21%
+* Cuando se cambia la jefe del experimento por un asistente 80% de los participantes deja de obedecer
 
 ---
-## Relación Actitudes y comportamiento. 
+background-image: url(3_obediencia_files/logo_psicologia_UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
 
-[Tienen que ver básicamente sobre la percepción de los indicadores objetivos]
 
---
-
-### Accesibilidad
-
---
-
-* Facilidad con la que experimentan la actitud
+### Autoridad institucional
 
 --
 
-### Estabilidad
+* Los participantes decían que no habrían hecho todo esto si no fueran respaldados por la U de Yale
+* Un experimento inventó un centreo de investigación privado de un pueblo pequeño _(Research associated of Bridgeport)_
+* Baja de un 65% a un 48% la obediencia
 
 --
 
-* En qué medida considera que su actitud es estable
+### Efectos liberadores de la influencia grupal
 
 --
 
-### Resistencia
+* Cuando personas se rebelan ante la obediencia es muy liberador
+* Se hizo una versión del experimento con dos asistentes que se rebelan
+* Cuando las personas se rebelan el 95% de las personas se niega a seguir
+
+--
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+**¿Sólo porque somos obedientes en un laboratorio nos hace potenciales partícipes de un holocausto?**
+
+---
+background-image: url(3_obediencia_files/logo_psicologia_UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+
+### Lecciones sobre la obediencia
 
 --
 
-* Cómo cree que su actitud resistiría a un ataque de información contraria a ella.
+- Algunos autores creen que el holocausto se puede entender más desde la socialización y la influencia interpersonal, más que la pura obediencia
+
+--
+
+- Esto hace que la idea de que un par de horas en el laboratorio te vuelvas patrocinador de un genocidio es incorrecta
+
+--
+
+### Sin embargo, deja en limpio las siguientes cosas
+
+--
+
+* El acatamiento puede tener prioridad por encima del sentido moral
+
+--
+
+* Tuvieron éxito para ir en contra de la propia voluntad
+
+--
+
+* Afirman dos conceptos clásicos de la psicología social: relación comportamiento/actitud y el poder de la situación.
 
 ---
 background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
 background-size: 200px
 background-position: 97% 97%
 
-### Considere también:
+### ¿Qué predice la conformidad?
 
 --
 
-#### Confianza
+### Tamaño del grupo
 
 --
 
-* Sustentada por experiencias pasadas directas; consensos sociales; cuando llegan fácil a la mente; cuando se ha pensado mucho.
+* 3 a 5 personas generan más conformidad que sólo 1 y 2. Más de 5 personas baja el efecto. 
 
-#### Importancia
+* Efecto del grupo pqeueño tiene muy buenos resultados en distintas configuraciones
 
---
-
-* Relevancia que se le da a la propia actitud
+### Unanimidad
 
 --
 
-#### Conocimiento
+* Romper la unanimidad destruye el poder social. y mientras más unánime sea, más difícil romparla. 
+
+* Las personas muestran sus diferencias sólo si encuentran a otros incorformistas
 
 --
 
-* Cantidad de conocimiento que se tiene sobre la actitud y su objeto de actitud
+### Cohesión
 
+--
+
+* Una opinión minoritaria desde afuera afecta menos que si viene por dentro. 
+
+* Ej: Un heterosexual que defiende derechos homosexuales es màs efectivo para convencer a otros heterosexuales.
 
 ---
 background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
 background-size: 200px
 background-position: 97% 97%
 
-### Formas de medición de actitudes
-
-
-- Al ser constructos mentales, es difícil medir las actitudes de manera directa y fiable.
+### ¿Qué predice la conformidad?
 
 --
 
-- Podemos dividirlas en métodos indirectos y directos
+### Respuesta pública
+
+--
+
+* Las personas tienden a ser más obedientes cuando hay compromisos públicos en ello
+* Al mismo tiempo, en privado las personas tienden a ser menos obedientes. 
+
+
+### Compromiso previo
+
+--
+
+* Compromisos previos con comportamientos previos harà que la persona sea màs difìcil de que obedezca a nuevos escenarios. 
+* Ej: Jueces de clavados rara vez cambian decisiones a pesar de lo que ven los demás.
+
+--
+
+### Estatus
+
+* En el experimento de Milgram se vió que con menor status, la gente obedece más. 
 
 ---
-layout: false
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+
+### ¿Por qué nos conformamos?
+
+
+.pull-left[
+
+#### Influencia normativa
+
+]
+
+
+.pull-right[
+
+#### Influencia informativa
+
+]
+
+
 ---
 background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
 background-size: 200px
