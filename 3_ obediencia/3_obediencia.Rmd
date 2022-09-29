@@ -80,7 +80,7 @@ style_duo_accent(
 <br>
 <br>
 
-#### Francisco Villarroel (CICS- UDD)
+#### Francisco Villarroel Riquelme (CICS- UDD)
 #### Curso Psicología Social - Universidad del Desarrollo
 
 
@@ -107,7 +107,15 @@ class:center, middle, bg_karl
 background-image: url(https://img2.rtve.es/imagenes/documentos-rne-juicio-adolf-eichmann-ejecutor-del-holocausto-18-02-22/1645217295119.jpg)
 background-size: 1350px
 background-position: 1% 20%
-class: inverse center middle
+class: center middle
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 # Cuando se cometen atrocidades como el holocausto ¿sólo se siguen órdenes?
 
@@ -115,13 +123,8 @@ class: inverse center middle
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
+
 
 _Juicio a Adolf Eichmann, Ejecutor del Holocausto (1961)_
 
@@ -144,7 +147,7 @@ class: left, middle
 .pull-right[
 
 - La conformidad es un cambio de comportamiento para unirse a un "otro"
-- En occidente es visto de mala forma, pero en oriente e sun valor más bien positivo.
+- En occidente es visto de mala forma, pero en oriente es un valor más bien positivo.
 
 ]
 
