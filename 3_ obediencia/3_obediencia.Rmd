@@ -16,8 +16,6 @@ output:
     seal: false
 ---
 class:center, middle, bg_karl
-background-image: url(https://ethicsunwrapped.utexas.edu/wp-content/uploads/2017/02/Obedience-to-Authority-1.jpg)
-background-size: 1300px
 background-position: 1% 20%
 
 ```{r setup, include=FALSE}
@@ -78,12 +76,20 @@ style_duo_accent(
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 
-#### .my-style[Francisco Villarroel (CICS- UDD)]
-#### .my-style[Curso Psicología Social - Universidad del Desarrollo]
+#### Francisco Villarroel (CICS- UDD)
+#### Curso Psicología Social - Universidad del Desarrollo
 
-<img src="3_obediencia_files/logo_psicologia_UDD.png" alt="drawing"  width="300" class="center" style = "position:relative; left:410px; top:50px"/>
 
+
+```{r, echo=FALSE, fig.align='center', out.width="20%"}
+
+
+knitr::include_graphics("3_obediencia_files/logo_psicologia_UDD.png")
+```
 
 ---
 background-image: url(3_obediencia_files/logo_psicologia_UDD.png)
@@ -120,7 +126,7 @@ class: inverse center middle
 _Juicio a Adolf Eichmann, Ejecutor del Holocausto (1961)_
 
 ---
-background-image: url(3_obediencia_files/logo_psicologia_UDD.png)
+background-image: url(3_obediencia/3_obediencia_files/logo_psicologia_UDD.png)
 background-size: 200px
 background-position: 97% 97%
 class: left, middle
@@ -626,6 +632,11 @@ background-position: 97% 97%
 
 #### Influencia normativa
 
+>_"Conformidad basada en el deseo de la persona de satisfacer las expactativas de los demás, a menudo para obtener aceptación"_ ("El deseo de agradar")
+
+
+**Ejemplo**: Cuando se intenta hacer una campaña para reducir consumo de alcohol en universitarios, se hace énfasis en que la mayoría de los estdiantes beben con moderación. Tuvo éxito: bajó a la mitad en 10 años.
+
 ]
 
 
@@ -633,6 +644,11 @@ background-position: 97% 97%
 
 #### Influencia informativa
 
+>_"Conformidad que ocurre cuando la gente acepta la evidencia de la realidad que les proporcionan otras personas"_ ("El deseo de estar en lo correcto")
+
+**Ejemplo**: Cuando estamos en situaciones ambiguas, es posible que el individuo razone "no puedo determinar qué tan lejos se mueve la luz. Pero este tipo parece saberlo"(178)
+
+
 ]
 
 
@@ -641,28 +657,51 @@ background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
 background-size: 200px
 background-position: 97% 97%
 
-## Escalas de diferencias semántico
+## Factores que aumentan la conformidad
 
+--
 
+### Personalidad:
 
-<img src="Actitudes_files/diferencial_semantico.png" alt="drawing"  width="950" class="center" style = "position:relative; left:45px; top:80px"/>
+* Milgram no había encontrado atributos específicos de personalidad
+* Las personas más amables (valoran llevarse bien con otros) tienen más probabilidades de conformarse
+* Las personas más responsables (Siguen normas sociales) tienen más probabilidades de conformarse
+
+### Cultura
+
+* Personas de países más individualistas obedecen menos
+* Las clases sociales también importan: las clases bajas tienden a asemejarse más mientras que las clases medias se conciben más únicos
+
 
 ---
 background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
 background-size: 200px
 background-position: 97% 97%
 
-#### Escalas de Likert
+## ¿Cuándo queremos ser diferentes?
 
 
-<img src="Actitudes_files/likert_scale.png" alt="drawing"  width="750" class="center" style = "position:relative; left:200px; top:10px"/>
+.pull-left[
 
----
-class: left, middle
+###Reactancia social
 
-<img src="Actitudes_files/situacion.png" alt="drawing"  width="700" class="center" style = "position:relative; left:225px; top:10px"/>
+* A menudo los individuos valoran su sentido de libertad y autosuficiencia.
+* Cuando la presión social amenaza el sentido de libertad, la gente se rebela
+* La reactancia psicológica funciona como boomeran para rebelarse a la conformidad
 
-<img src="Actitudes_files/emociones.png" alt="drawing" width="700" class="center" style = "position:relative; left:225px; top:10px"/>
+]
+
+
+.pull-right[
+
+###Afirmación de la singularidad
+
+* La gente se siente incómoda cuando es demasiado diferente a los demás
+* Pero también ser muy igual incomoda
+* “En general, las personas se sienten mejor cuando se consideran moderadamente únicas y actúan de modos que afirman su individualidad”
+
+
+]
 
 ---
 class: inversed, center, middle
